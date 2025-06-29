@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id" data-page="inquiry">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry Data - GAMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <a href="dashboard.html" class="logo-small">G</a>
+                <button class="sidebar-close-btn" id="sidebar-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="tasklist.html"><i class="fa-solid fa-list-check"></i> Tasklist</a></li>
+                <li><a href="pengajuan.html"><i class="fa-solid fa-store"></i> Menu Pengajuan Merchant</a></li>
+                <li class="active"><a href="inquiry.html"><i class="fa-solid fa-magnifying-glass-chart"></i> Inquiry Data Merchant</a></li>
+                <li><a href="tracking.html"><i class="fa-solid fa-route"></i> Menu Tracking Pengajuan</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-wrapper">
+            <header class="app-header">
+                <button class="menu-toggle" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+                <div class="user-info">
+                    <div class="user-name">Hello, ARSYAD</div>
+                    <div class="user-role">GAMA</div>
+                </div>
+            </header>
+            <main class="main-content">
+                <h1 class="page-title">Inquiry Data Merchant</h1>
+                <div class="content-box">
+                    <p>Halaman ini digunakan untuk melihat semua data merchant yang sudah terdaftar. Gunakan fitur pencarian di setiap kolom untuk memfilter data.</p>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>MID</th>
+                                    <th>Nama Usaha</th>
+                                    <th>Jenis Usaha</th>
+                                    <th>Tanggal Daftar</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>MID123XYZ</td>
+                                    <td>Toko Kelontong Berkah</td>
+                                    <td>Retail</td>
+                                    <td>15 April 2025</td>
+                                    <td><span class="status completed">Aktif</span></td>
+                                </tr>
+                                <tr>
+                                    <td>MID456ABC</td>
+                                    <td>Warung Kopi Senja</td>
+                                    <td>F&B</td>
+                                    <td>20 Mei 2025</td>
+                                    <td><span class="status completed">Aktif</span></td>
+                                </tr>
+                                <tr>
+                                    <td>MID789PQR</td>
+                                    <td>Bengkel Maju Jaya</td>
+                                    <td>Otomotif</td>
+                                    <td>01 Juni 2025</td>
+                                    <td><span class="status pending">Review</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
