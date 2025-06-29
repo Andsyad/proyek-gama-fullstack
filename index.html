@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id" data-page="dashboard">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - GAMA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <a href="dashboard.html" class="logo-small">G</a>
+                <button class="sidebar-close-btn" id="sidebar-close-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="tasklist.html"><i class="fa-solid fa-list-check"></i> Tasklist</a></li>
+                <li class="active"><a href="pengajuan.html"><i class="fa-solid fa-store"></i> Menu Pengajuan Merchant</a></li>
+                <li><a href="inquiry.html"><i class="fa-solid fa-magnifying-glass-chart"></i> Inquiry Data Merchant</a></li>
+                <li><a href="tracking.html"><i class="fa-solid fa-route"></i> Menu Tracking Pengajuan</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-wrapper">
+            <header class="app-header">
+                <button class="menu-toggle" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+                <div class="user-info">
+                    <div class="user-name">Hello, ARSYAD</div>
+                    <div class="user-role">GAMA</div>
+                </div>
+            </header>
+            <main class="main-content">
+                <h1 class="page-title">Favorite ★</h1>
+                <div class="favorite-container">
+                    <a href="inquiry.html" class="favorite-item">Inquiry RAD</a>
+                    <a href="pengajuan.html" class="favorite-item">Merchant</a>
+                    <a href="tracking.html" class="favorite-item">Tracking</a>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
